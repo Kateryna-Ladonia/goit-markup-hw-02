@@ -15,6 +15,7 @@ a {
 .nav {
 }
 .logo {
+  text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -36,10 +37,12 @@ a {
 .menu-link {
   color: #2e2f42;
 }
-.menu-link:hover {
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
 }
-.address {
+address {
+  font-style: normal;
 }
 .address-item {
   font-weight: 400;
@@ -51,7 +54,8 @@ a {
   color: #434455;
   font-style: normal;
 }
-.address-link:hover {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 .hero {
@@ -73,29 +77,38 @@ a {
   color: #fff;
   background-color: #4d5ae5;
   text-align: center;
+  cursor: pointer;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
-.section-1 {
+.section-one {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.section-1-title {
+.section-one-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section-2-title {
+.section-two {
+  background-color: #f4f4fd;
+}
+.section-two-list {
+  background-color: #ffffff;
+}
+.section-two-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .person-title {
   font-weight: 500;
@@ -111,17 +124,20 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.section-3-title {
+.section-three-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
-.section-3-link {
+.section-three-link {
   color: #2e2f42;
 }
-.section-3-link:hover {
+.section-three-link:hover,
+.section-three-link:focus {
   color: #404bbf;
 }
 
@@ -145,11 +161,13 @@ a {
   color: #f4f4fd;
 }
 .footer-link {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  text-transform: uppercase;
 }
 .footer-link-span {
   color: #f4f4fd;
